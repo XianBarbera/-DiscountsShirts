@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descuentos</title>
+</head>
+
+<body>
+    <header>
+        <input type="text">
+    </header>
+    <section>
+        <div class="articles">
+            <h3>Black Shirt</h3>
+            <h4>$500</h4>
+            <img src="remera.jpg" alt="">
+            <p>75% OFF</p>
+
+            <hr>
+            <h3>Duff Shirt</h3>
+            <h4>$700</h4>
+            <img src="duff.jpg" alt="">
+            <p>15% OFF</p>
+            <hr>
+            <h3>State Champions Shirt</h3>
+            <h4>$1000</h4>
+            <img src="champ.jpg" alt="">
+            <p>30% OFF</p>
+            <hr>
+            <h3>Wolf Shirt</h3>
+            <h4>$800</h4>
+            <img src="wolf.jpg" alt="">
+            <p>50% OFF</p>
+
+        </div>
+
+    </section>
+    <div class="discount">
+        <form>
+            <label for="InputPrice">
+             </label>
+            <h3> Price of the product:</h3>
+            <input id="InputPrice" type="number" />
+
+
+            <label for="InputCoupon">
+              </label>
+            <h3>Product discount:</h3>
+            <input id="InputCoupon" type="number" />
+            <hr>
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+          DISCOUNT PRICE
+        </button>
+
+            <p id="ResultPrice"></p>
+
+        </form>
+    </div>
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+
+</html>

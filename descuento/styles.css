@@ -1,0 +1,141 @@
+    body {
+        position: relative;
+        margin-top: -1px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 100%;
+        text-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 30px;
+        background-color: rgba(209, 209, 209, 0.301);
+        color: rgb(56, 55, 55)
+    }
+    
+    header {
+        width: 100%;
+        background-color: gold;
+        box-shadow: 1.4px 2.1px 4px rgb(197, 197, 197);
+    }
+    
+    header input {
+        width: 700px;
+        background-color: aliceblue;
+        border: none;
+    }
+    
+    button {
+        background-color: rgba(147, 165, 165, 0.034);
+        color: black;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 12px;
+        width: 200px;
+        font-size: 26px;
+        border-color: black;
+        box-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+    }
+    
+    button:hover {
+        background-color: black;
+        color: aliceblue;
+        transition-duration: 810ms;
+    }
+    
+    button:active {
+        color: rgb(186, 235, 235);
+        transition-duration: 0.1ms;
+    }
+    
+    Input {
+        outline: none;
+        background-color: rgba(147, 165, 165, 0.034);
+        color: black;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 12px;
+        width: 200px;
+        font-size: 26px;
+        border-color: black;
+        box-shadow: 1.4px 2.1px 4px rgb(95, 93, 93);
+    }
+    
+    Input:hover {
+        background-color: black;
+        color: aliceblue;
+        transition-duration: 810ms;
+    }
+    
+    Input:active {
+        color: rgb(186, 235, 235);
+        transition-duration: 0.1ms;
+    }
+    
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    
+    h2 {
+        text-shadow: 1.4px 2.1px 4px rgb(106, 172, 172);
+    }
+    
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .articles {
+        background-color: white;
+        padding: 10px;
+        width: 700px;
+        height: 100%;
+        margin: 80px;
+        border-radius: 5px;
+        box-shadow: 1.4px 2.1px 4px rgb(148, 148, 148);
+    }
+    
+    .articles p {
+        color: rgb(5, 170, 5);
+    }
+    
+    .articles h3 {
+        color: rgb(100, 100, 100);
+    }
+    
+    .articles hr {
+        border: 1px solid rgba(209, 209, 209, 0.301);
+    }
+    
+    section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .discount {
+        position: fixed;
+        margin-top: -110%;
+        width: 600px;
+        height: 100 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .discount h3 {
+        margin: 10px;
+    }
+    
+    .discount input {
+        margin: 10px auto;
+    }
+    
+    .discount button {
+        margin: 10px;
+        width: 300px;
+    }
+    
+    .discount hr {
+        border: none;
+    }
